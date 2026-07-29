@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <radialGradient id="g1" cx="20%" cy="20%" r="60%">
+      <stop offset="0%" stop-color="#e8673c" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#fdf2ec" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="g2" cx="80%" cy="15%" r="55%">
+      <stop offset="0%" stop-color="#f0a470" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#fdf2ec" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="g3" cx="10%" cy="85%" r="60%">
+      <stop offset="0%" stop-color="#d5a8e0" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#fdf2ec" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="g4" cx="60%" cy="90%" r="55%">
+      <stop offset="0%" stop-color="#f75e7a" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#fdf2ec" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="g5" cx="90%" cy="80%" r="50%">
+      <stop offset="0%" stop-color="#5eb3f0" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#fdf2ec" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Base -->
+  <rect width="1200" height="630" fill="#fdf2ec"/>
+  <rect width="1200" height="630" fill="url(#g1)"/>
+  <rect width="1200" height="630" fill="url(#g2)"/>
+  <rect width="1200" height="630" fill="url(#g3)"/>
+  <rect width="1200" height="630" fill="url(#g4)"/>
+  <rect width="1200" height="630" fill="url(#g5)"/>
+
+  <!-- Wordmark -->
+  <text x="600" y="290" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="88" font-weight="700" fill="#18181b" letter-spacing="-2">pensil.io</text>
+
+  <!-- Tagline -->
+  <text x="600" y="358" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="28" font-weight="400" fill="#52525b" letter-spacing="0.5">thinks before it creates</text>
+
+  <!-- Bottom label -->
+  <text x="600" y="540" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="18" font-weight="400" fill="#a1a1aa">pensil.io</text>
+</svg>
